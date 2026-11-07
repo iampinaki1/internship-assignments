@@ -38,6 +38,15 @@ npx react-native run-android --no-packager
 npm test
 ```
 
+### Run the Web App (Vite + React Native Web)
+
+Navigate to the `HBIntern` folder and run:
+
+```bash
+npm run web
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
 ## Issues Fixed
 
 During setup, we encountered and resolved a few issues:
@@ -54,14 +63,19 @@ React Native's Fast Refresh automatically updates the app whenever you save chan
 
 For more information, check out the [React Native Documentation](https://reactnative.dev/docs/getting-started).
 
-# colour schema
-Colour	HEX Code	Usage
-Soft Peach	#F9E0D9	Main background
-Warm Coral	#F4B5A3	Primary accent, charts
-Light Peach	#F8DFD8	Secondary backgrounds
-Pastel Lavender	#DBDBF7	Activity cards
-Pure White	#FFFFFF	Cards and containersAX
-Off White	#F9F9F9	Secondary surfaces
-Charcoal	#252525	Headings and text
-Medium Gray	#A7A7A7	Secondary text, icons
-Dark Taupe	#5E514D	Graph lines
+## 🎨 UI Colour Scheme
+
+| Colour | HEX Code | Usage |
+|---|---|---|
+| **Soft Peach** | `#F9E0D9` | Main background |
+| **Vibrant Coral** | `#E85D4E` | High-contrast CTA buttons, HB+ logo badge, Signout |
+| **Warm Coral (Muted)** | `#F4B5A3` | Secondary accents, borders |
+| **Light Peach** | `#F8DFD8` | Secondary backgrounds |
+| **Pastel Lavender** | `#DBDBF7` | Activity cards |
+| **Pure White** | `#FFFFFF` | Cards and containers |
+| **Off White** | `#F9F9F9` | Secondary surfaces |
+| **Charcoal** | `#1E1E1E` | Headings and crisp text |
+| **Medium Gray** | `#6E6E6E` | Secondary text, icons (enhanced contrast) |
+| **Dark Taupe** | `#4A3E3A` | Graph lines |
+
+
